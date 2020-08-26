@@ -1,22 +1,13 @@
-const usuarios = [
-    { nome: "Diego", idade: 23, empresa: "Rocketseat" },
-    { nome: "Gabriel", idade: 15, empresa: "Rocketseat" },
-    { nome: "Lucas", idade: 30, empresa: "Facebook" },
-    { nome: "Lucas", idade: 30, empresa: "Facebook" },
-    { nome: "Lucas", idade: 50, empresa: "Rocketseat" }
-];
+const usuario = { nome: "Diego", idade: 23 };
 
-// const professionals = [];
+// function mostraIdade(usuario) {
+//     return usuario.idade;
+// }
 
-// usuarios.filter(function (item) {
-//     if(item.idade >= 18 && item.empresa == "Rocketseat") {
-//         professionals.push(item);
-//     }
-// });
-
-// console.log(professionals);
+// mostraIdade(usuario);
 
 
-// Arrow Functions
-var users = usuarios.filter(user => user.idade >= 18 && user.empresa == 'Rocketseat');
-console.log(users);
+
+const mostraIdade = (param) => `A idade do ${usuario.nome} é: ${param.idade}`;
+
+console.log(mostraIdade(usuario));
