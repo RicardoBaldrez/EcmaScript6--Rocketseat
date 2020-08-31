@@ -14,4 +14,4 @@ class Api {
 
 // Podemos chamar dessa forma sem instanciar, pois temos um método static na classe
 Api.getUserInfo('RicardoBaldrez');
-Api.getUserInfo('RicardoBaldrez12');
+Api.getUserInfo('RicardoBaldrez123');
